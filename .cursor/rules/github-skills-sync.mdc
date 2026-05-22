@@ -1,0 +1,14 @@
+---
+description: Push this skills repo to GitHub via SSH deploy key
+alwaysApply: true
+---
+
+# 本仓库 GitHub 同步
+
+与全局规则相同：推送到 https://github.com/aaab3/skills
+
+- 在**本目录**执行：`.\push-to-github.ps1`
+- Deploy 公钥：`ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOEPITvdac7jO0r07mXcXO2KjHQ67XRGDuITjOiTRWdq deploy-aaab3-skills`
+- 私钥：`.deploy-keys\github-skills-deploy`（勿提交）
+
+详见仓库根目录 `.deploy-keys\README.md` 与用户级 `C:\Users\a\.cursor\rules\github-skills-sync.mdc`。

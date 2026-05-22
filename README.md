@@ -4,6 +4,8 @@ Personal [Cursor Agent Skills](https://cursor.com/docs/context/skills) for Reddi
 
 **Repository:** https://github.com/aaab3/skills
 
+**Push (any agent session):** from this folder run `.\push-to-github.ps1` (SSH deploy key; see `.deploy-keys/README.md` and Cursor rule `github-skills-sync`).
+
 Install: symlink or copy each `*/SKILL.md` folder into `~/.cursor/skills/` (Windows: `%USERPROFILE%\.cursor\skills\`).
 
 ## Skills

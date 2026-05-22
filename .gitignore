@@ -9,6 +9,7 @@ Thumbs.db
 *.env.local
 **/credentials*
 **/*secret*
+.deploy-keys/
 
 # Large ephemeral scrapes (regenerate locally)
 **/workspace/scrapes/
