@@ -2,6 +2,8 @@
 
 Personal [Cursor Agent Skills](https://cursor.com/docs/context/skills) for Reddit engagement, Product Hunt comments, web research MCP, novel-based teaching, and plan grilling.
 
+**Repository:** https://github.com/aaab3/skills
+
 Install: symlink or copy each `*/SKILL.md` folder into `~/.cursor/skills/` (Windows: `%USERPROFILE%\.cursor\skills\`).
 
 ## Skills
