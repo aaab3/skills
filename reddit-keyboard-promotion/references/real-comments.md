@@ -1,7 +1,8 @@
 # 真人 Reddit 评论样本库
 
-> 本文件收集真实 Reddit 评论样本，用于训练反 AI 检测的评论生成能力
-> 更新：2026-05-09
+> 本文件：短评形态、口语碎片、键盘社区常用句（偏 curated）。  
+> **高票可核对真人语料（PullPush）→** [`real-comments-corpus.md`](real-comments-corpus.md)（2026-05-22，七社区 + 键盘 Help 补充）  
+> 更新：2026-05-22
 
 ---
 
@@ -300,3 +301,18 @@
 - `works great but the battery life is overrated`
 - `probably gonna get roasted for this, but...`
 - `solid but not for that price`
+
+---
+
+## 高票真人句（摘自 corpus，勿照抄）
+
+| 社区 | 示例 | 学啥 |
+|------|------|------|
+| NSQ | `"Fl oz" stands for "fluid ounces," not Florida.` | 一句纠偏 |
+| ELI5 | `The joke answer is… The real answer is…` | 笑话→真答 |
+| Ask | `Being quiet late at night when your parents are asleep. My parents are deaf` | 反转 punchline |
+| pcmr | `Thanks for the warning. I just checked and I don't have a 4090 🙃` | 接梗自嘲 |
+| keyboards | `Uh ... nice keyboard.` | understatement |
+| MK | `McChanical switches` | 一字梗 |
+
+完整表、分数、permalink → **`real-comments-corpus.md`**

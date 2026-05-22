@@ -54,6 +54,8 @@
 
 - 梗/展示：`high-engagement-comment-playbook.md`（H1–H6）
 
+- **真人高票语料（可 permalink 核对）：** `real-comments-corpus.md` — NSQ/ELI5/Ask/pcmr/LPT/keyboards/MK；搭配 `real-comments.md` 短评碎片
+
 
 
 ## 历史策略（非默认）

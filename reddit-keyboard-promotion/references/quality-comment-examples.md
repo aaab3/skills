@@ -2,6 +2,8 @@
 
 Use this file as a pattern library, not a copy bank. The examples below are adapted from observed high-quality Reddit keyboard discussions. Do not copy source comments verbatim. Use the structure, specificity, caveats, and rhythm, then rewrite around the exact OP.
 
+**跨社区真人高票（NSQ/ELI5/Ask/pcmr 等）：** `real-comments-corpus.md` — PullPush 可核对 permalink；本文件侧重键盘垂直。
+
 **Quotes in examples:** `"best"` / `"worth it"` show **scare quotes** for keyboard Help threads. Real short comments rarely use `"` (see `reddit-comment-symbols.md`). Do **not** put scare quotes in every draft.
 
 ## How To Use This File
