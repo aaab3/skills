@@ -1,0 +1,19 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Secrets (never commit)
+.env
+*.env.local
+**/credentials*
+**/*secret*
+
+# Large ephemeral scrapes (regenerate locally)
+**/workspace/scrapes/
+**/nsq_top.json
+
+# Python
+__pycache__/
+*.pyc

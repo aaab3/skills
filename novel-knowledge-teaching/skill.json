@@ -1,0 +1,38 @@
+{
+  "name": "novel-knowledge-teaching",
+  "version": "1.1.0",
+  "description": "用小说/故事形态讲授技术概念：三线交织、统御性隐喻、信号系统；含2024-2026叙事市场调研、叙事运输理论、反模板写作与AI协作边界。参考实现：aaab3/and 字之城 draft-v1。",
+  "author": "cloudboy",
+  "language": "zh",
+  "tags": ["小说", "科普", "知识表达", "叙事教学", "隐喻系统", "signal-annotation", "narrative-transportation"],
+  "homepage": "https://github.com/aaab3/skills/tree/main/novel-knowledge-teaching",
+  "license": "MIT",
+  "formats": ["narrative-teaching", "skill-book", "course-design", "science-fiction-pedagogy"],
+  "project_repo": "https://github.com/aaab3/and/tree/novel/draft-v1/novel",
+  "triggers": [
+    "用小说讲",
+    "写一篇科普小说",
+    "如何用故事讲",
+    "小说讲知识",
+    "叙事教学设计",
+    "三线交织",
+    "字之城",
+    "隐喻崩塌",
+    "概念隐喻",
+    "故事讲技术",
+    "LLM 小说",
+    "科普长篇"
+  ],
+  "keywords": [
+    "narrative-teaching",
+    "fiction-based-learning",
+    "signal-annotation",
+    "three-line-structure",
+    "unified-metaphor",
+    "narrative-transportation"
+  ],
+  "skill_file": "SKILL.md",
+  "references": [
+    "references/contemporary-structures-and-markets.md"
+  ]
+}
