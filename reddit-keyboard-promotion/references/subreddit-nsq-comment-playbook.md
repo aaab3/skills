@@ -342,9 +342,9 @@ Common question — gist is [one sentence answer in your words]. [Optional: one 
 
 **结论：** 阶段 A 备稿 **默认 ≤35 词、≤2 句**；写满 60 词且三段 = 明显高于 thread 中位数，AI 感强。
 
-### 10.2 真人口吻标记（多用）
+### 10.2 真人口吻标记（结构 · 非开场模板）
 
-- 开头：`Yeah` / `Honestly` / `Basically` / `I don't think` / `Not really`
+- 常见口语词：`yeah` / `honestly` / `I don't think` — **仅当句内自然**；禁止每条机械以 Yeah/Honestly 开头（`comment-style-guide.md`）
 - **一句答完就停**，不补「In conclusion」
 - 允许 **半句清单**：`mice, keyboards, fans, cables`
 - 允许 **轻微语法松**：`GPU's` · `werr` · `buisnesses`（不要刻意造假错，但要**少润色**）

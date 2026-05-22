@@ -1,6 +1,15 @@
 # Quality Checklist
 
-Run this before final output.
+Run this **after** `SKILL.md` § Evidence Gate passes. If Gate #3 is empty, **do not run tone checks on a draft** — output 不建议发 only.
+
+## Evidence Gate（与 SKILL.md 一致 · 先发后检）
+
+- [ ] **OP facts** listed in one sentence before any English draft
+- [ ] **Existing comments** listed (or marked incomplete if thread not fully read)
+- [ ] **Safe claim I can add** is exactly **one** local move tied to this thread
+- [ ] If #3 is weak, repeated, or unverified → **stop** (不建议发; no 建议实发)
+- [ ] Draft uses only: OP facts · visible comments · verified vendor specs · uncertain diagnostics (worded as guess)
+- [ ] **Local Comment test:** comment would **not** still work on 20 similar threads unchanged
 
 ## The 5 Rules (Non-Negotiable)
 
@@ -8,9 +17,23 @@ Run this before final output.
 2. **One concrete detail from OP**: model, switch, budget, symptom, layout, use case — at least one.
 3. **One judgment + one reason**: say what you think and why, not just "it depends".
 4. **Zero or one question**: never more than one.
-5. **No invented facts**: anything uncertain must be marked or caveated.
+5. **No invented facts**: anything uncertain must be marked or caveated (see § Claim Wording).
 
-## AI Voice Detection (New — Run Every Time)
+## Claim Wording（每条事实标类型）
+
+| Type | Rule | Example |
+|------|------|---------|
+| **OP fact** | State plainly from OP | `Since the whole row is dead…` |
+| **Verified spec** | Only after search/official page | `That line is wired-only.` |
+| **Unverified spec** | **Do not include** in 建议实发 | — |
+| **Diagnosis** | Never as fact | `Sounds like…` / `Usually points to…` / `I'd check…` |
+| **Community opinion** | Only if recently verified; no `everyone says` / `widely regarded` / `best` | `Some people prefer X for Y, but it depends on…` |
+| **Personal experience** | **Only if true**; never for tone | No fake `I had mine for 3 weeks` |
+
+- [ ] Every factual sentence in 建议实发 maps to one row above
+- [ ] No unverified SKU specs (Type D → § Type D Product Facts)
+
+## AI Voice Detection (Run only if Gate passed)
 
 Check your draft for these triggers:
 
@@ -42,8 +65,10 @@ Check your draft for these triggers:
 - [ ] **No sandwich**: answer + mechanism + caveat as three balanced paragraphs
 - [ ] **No explainer voice:** no `Partly X… Partly Y…`; no `Your [feeling] is common/valid`; no `legit coping strategies` (see `comment-style-guide.md` § Explainer)
 - [ ] Banned openers: `You're not imagining it`, `Great question`, `Hope this helps`, `It's important to note`, `Partly`, `Partially`
-- [ ] Prefer: `Yeah` / `Honestly` / `I don't think` / `Basically` + stop early
-- [ ] **Personal anchor:** at least one of — what *you* do (`I still use old reddit`), one annoyance (`hides the setting I used`), or `tbh` — not only abstract nouns (engagement, accessibility, corporate)
+- [ ] **No fake casual openers:** do not start every comment with `Yeah` / `Honestly` / `tbh` for tone
+- [ ] `yeah` / `honestly` / `tbh` only if the sentence still works **without** them (`comment-style-guide.md`)
+- [ ] **No fake personal anchor:** do not invent `I still use…` / ownership for flavor; real experience only if true
+- [ ] Prefer concrete detail over abstract nouns (engagement, accessibility, corporate)
 - [ ] Fewer em dashes `—`; use periods or `and`
 - [ ] Shorter than the longest existing top comment in that thread
 - [ ] Read aloud: sounds like a **person typing**, not a **balanced essay**?
@@ -60,9 +85,16 @@ Check your draft for these triggers:
 ## Fact Safety
 
 - [ ] Were unfamiliar models, switches, specs, prices, and community claims searched?
-- [ ] Are uncertain facts marked as uncertain?
+- [ ] Are uncertain facts marked per § Claim Wording (diagnosis vs verified spec)?
 - [ ] Did the comment avoid inventing specs, ownership, or personal experience?
 - [ ] Did the comment avoid overclaiming "best", "worst", or "everyone agrees"?
+
+## Named Product Gate（具名品牌+型号时 · SKILL.md）
+
+- [ ] **Connection** verified for each named SKU
+- [ ] **Layout / switch / software** verified if relevant to OP's question
+- [ ] Matches **OP 合同** (wireless / HE / aesthetic vs gaming axis)
+- [ ] If any required field unknown → **that SKU removed** from 建议实发 (lane + `check SKU` OK)
 
 ## Type D Product Facts（推荐帖 — 具名型号时必跑）
 

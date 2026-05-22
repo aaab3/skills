@@ -20,6 +20,17 @@ Good Reddit keyboard comments are:
 - clear about uncertainty when facts are not verified
 - selective: they pick one useful angle instead of covering everything
 - caveated: they explain when the advice changes
+- **local:** one move for *this* thread (`SKILL.md` § Local Comment Rule)
+
+## Casual words — do not fake human tone
+
+**Do not** add `yeah` / `honestly` / `tbh` / `I don't think` just to sound casual.
+
+- Use them only if the sentence **still works without** them.
+- **Never** add fake ownership, fake certainty, or fake personal experience for tone.
+- High-upvote comments often have **zero** filler openers (see `real-comments-corpus.md`).
+
+Banned as **default openers** (not banned mid-sentence when natural): starting every draft with `Yeah,` / `Honestly,` / `tbh,`.
 
 ## AVOID — High AI-Phrase Ban List
 
@@ -66,7 +77,7 @@ These are okay occasionally, but **never in every draft**. If you catch yourself
 
 | AI 写法 | 真人替代 |
 |---------|----------|
-| `Partly X… Partly Y…` 对称两段 | `Yeah a lot of it is X` + 一个具体例子 |
+| `Partly X… Partly Y…` 对称两段 | 一句机制 + 一个具体例子（不必以 Yeah 开头） |
 | `Your burnout/frustration is common/valid` | `yeah it sucks` / `you're not crazy`（少用后者，NSQ 已饱和） |
 | `legit/coping strategies` | `I just use old reddit` / `I turned off auto updates` |
 | 三段：原因归纳 → 公司动机 → 情绪安抚 | **1–2 句**，答完就停 |
@@ -84,13 +95,15 @@ These are okay occasionally, but **never in every draft**. If you catch yourself
 - ❌ `In summary` / `To summarize` / `Overall,`
 - ❌ `It's worth noting that`
 
-### 真人 NSQ 口吻（优先）
+### 真人 NSQ 口吻（结构优先 · 非开场模板）
 
 ```
-✅ Yeah it sucks. A lot of it is just companies A/B testing whatever keeps you scrolling.
-✅ Honestly I still use old reddit half the time because the new layout feels like homework.
-✅ I don't think it's one evil plot — they just bury the setting you actually used.
+✅ A lot of it is just companies A/B testing whatever keeps you scrolling.
+✅ I still use old reddit half the time because the new layout feels like homework.
+✅ They just bury the setting you actually used — not one evil plot.
 ```
+
+（示例可有口语词，但 **禁止** 为每条评论机械套用 Yeah/Honestly 开头。）
 
 ```
 ❌ Partly real reasons: A/B tests… Partly corporate — new UI can bury settings. Your burnout is common; old.reddit and turning off auto-updates are legit coping strategies.

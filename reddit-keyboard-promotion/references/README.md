@@ -10,7 +10,7 @@
 
 2. **`first-comment-playbook.md`** — **主攻七社区抢首评**（NSQ/ELI5/Ask/LPT/pcmr/keyboards/MK）  
 
-3. **`how-to-comment.md`** / **`how-to-post.md`** — 通用写法与流程（出稿必跑 **反解释器腔**）  
+3. **`how-to-comment.md`** / **`how-to-post.md`** — 通用写法与流程（**Evidence Gate 先发后写** · Local Comment · 结论前置输出）  
 
 4. **`reddit-comment-symbols.md`** — 引号 `""` 习惯、Markdown/Snoomark  
 
@@ -36,7 +36,7 @@
 
 3. **`quality-checklist.md`** § **Type D Product Facts**  
 
-4. 语气仍跑 **`comment-style-guide.md`**（禁 `-ish` + 型号、禁 Partly/Partly）
+4. 语气仍跑 **`comment-style-guide.md`**（禁假口语开场、禁 `-ish` + 型号、禁 Partly/Partly）
 
 
 

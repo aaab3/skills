@@ -6,19 +6,38 @@
 
 ---
 
+## Named Product Gate（`SKILL.md` · 写具名型号前）
+
+点名 **品牌+型号/SKU** 前，每项必须核实；**任一项未知 → 不点名该型号**。
+
+| 必核 | 示例 |
+|------|------|
+| **connection** | wired only / 2.4G+BT / tri-mode |
+| **layout** | 75% / ISO / Mac 键位 |
+| **switch type**（若 OP 在乎轴/HE） | magnetic HE vs 机械 |
+| **software/firmware**（若 OP 问 VIA/QMK） | VIA vs 私有云 |
+| **matches OP 合同** | wireless 硬需求 ≠ 推 Air **HE** |
+
+允许：**一条 lane** + `check wireless on the exact SKU` — 禁止假装已核实子型号。
+
+---
+
 ## 0. Agent 硬顺序（不可跳步）
+
+须在 **`SKILL.md` § Evidence Gate** 通过后再执行：
 
 ```
 1. OP 合同（一句话：OP 在买什么维度？）
 2. 楼里已有（高赞 3 点 — 不重复）
 3. 产品轴分叉（§2 — Mode 审美 ≠ HE 游戏）
-4. 搜索/官网核对（§4 — 每个具名 SKU 的 wireless/HE）
-5. 写 1 条：≤2 lane + ≤1 踩坑 + 禁清单
-6. quality-checklist.md § Type D Product Facts
+4. Named Product Gate + §4 搜索/官网（每个具名 SKU）
+5. 写 1 条 local move：≤2 lane + ≤1 踩坑 + 禁清单
+6. quality-checklist.md § Named Product Gate + § Type D Product Facts
 ```
 
 **禁止：** 未做 3–4 就写 `Keychron … / NuPhy … / Lemokey …` 三连。  
-**禁止：** 用 `-ish`（`wireless-ish`、`premium-ish`）搭配具名型号 — 像不确定导购。
+**禁止：** 用 `-ish`（`wireless-ish`、`premium-ish`）搭配具名型号 — 像不确定导购。  
+**Gate #3 弱或重复楼里 → 不 draft**（只输出 不建议发）。
 
 ---
 
