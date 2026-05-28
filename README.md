@@ -12,15 +12,24 @@ Install: symlink or copy each `*/SKILL.md` folder into `~/.cursor/skills/` (Wind
 
 | Folder | Purpose |
 |--------|---------|
-| `reddit-keyboard-promotion` | Reddit comment/post playbooks (NSQ, ELI5, Ask, keyboards, MK, …); includes **product-recommendation-playbook** (Type D facts) |
+| **`reddit-keyboard-comments`** | **Comments 版** — 仅 `r/keyboards` + `r/MechanicalKeyboards`；thread_mode · Filler · human-voice-gate · 输出 `Desktop\评论\` |
+| `reddit-keyboard-promotion` | Reddit 多社区（NSQ、ELI5、Ask、LPT、pcmr 等）；keyboards/MK 评论请用 **comments** 技能 |
 | `product-hunt-commenter` | Product Hunt comment drafts (CQS-first) |
 | `web-research-mcp` | Firecrawl / Tavily / MCP research routing |
 | `grill-me` | Pre-implementation Socratic interview (盘问) |
 | `novel-knowledge-teaching` | Teach technical concepts via narrative fiction |
 
+## Backup convention
+
+Replacing a skill folder: move the old tree to `_backup/{skill-name}-YYYY-MM-DD/` before committing the new version.
+
+## Recent changes (2026-05-28)
+
+- **reddit-keyboard-comments:** New Comments 版技能（从 promotion 拆出 keyboards/MK 专评）；含 `thread-router`, `dedup-gate`, `human-voice-gate`, `skill-map` 等 references。
+
 ## Recent changes (2026-05)
 
-- **reddit-keyboard-promotion:** Added `references/product-recommendation-playbook.md`; wired into `SKILL.md`, `how-to-comment.md`, `quality-checklist.md` (Type D product facts); fixed Mode/wireless/NuPhy HE draft in workspace.
+- **reddit-keyboard-promotion:** Added `references/product-recommendation-playbook.md`; wired into `SKILL.md`, `how-to-comment.md`, `quality-checklist.md` (Type D product facts).
 
 ## License
 
