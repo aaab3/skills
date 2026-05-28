@@ -332,6 +332,35 @@ this is one of those hobbies where "worth it" mostly means "does it solve your a
 the hype is real for some people, but it's also easy to buy features you won't use. if OP is mostly typing docs and browsing, HE probably should not be the deciding factor.
 ```
 
+## 11. 推翻比较框架（Reframe · 非 Tradeoff 树）
+
+> **何时读：** `OP阶段=比较` · A vs B · HE/性能帖 · 实发优先见 `human-voice-gate.md`  
+> 详例：`blind-spot-examples.md` #4 · `community-high-comments.md`（good enough）
+
+**适用：** OP 在比 A vs B，但**比较维度本身不重要**或比错了。
+
+```text
+both have 8k polling — you're not picking on specs, you're picking on whether you can stand their config app
+```
+
+**为何得赞：** OP 问 performance；一句改比较轴 · 非 `if X then A if Y then B`
+
+```text
+the layout question matters more than brand here — full size locks you into a desk footprint that's hard to go back from
+```
+
+**为何得赞：** 探索/比较交界 · **改方向** · 非事后驱动坑
+
+```text
+the point about "good enough" is underrated. most people can't tell the difference past a certain level anyway
+```
+
+**为何得赞：** 站 OP 论题 · 推翻「越贵越好」轴 · 两句无 SKU
+
+**勿与盲点混淆：** 探索期 **事后** software/HID → 进池可 · **默认不实发**（`blind-spot-gate.md`）
+
+---
+
 ## Bad Pattern To Avoid
 
 Do not generate this style:

@@ -23,8 +23,8 @@ description: >-
 
 | 阶段 | 做什么 |
 |------|--------|
-| **1 读帖** | fetch → thread-router → op-info（**盲点候选**）→ OP合同 |
-| **2 写池** | 写前 6 原则 · **Blind Spot 0–1** · 扫盲点例/金样 |
+| **1 读帖** | fetch → thread-router → op-info（**OP阶段** · **盲点候选**）→ OP合同 |
+| **2 写池** | **跨批去重**（扫 Desktop）· 6 原则 · Blind Spot 按 **OP阶段** · 扫金样/§11 |
 | **3 批检** | dedup → batch-rhythm（**实发倾向**）→ human-voice |
 | **4 实发** | 按倾向选 1 条 → 5 Rules → Desktop md |
 
@@ -34,7 +34,7 @@ description: >-
 
 ## 输出必填
 
-`OP合同` · `info_density` · `盲点候选` · `thread_mode` · `核实来源` · `节奏自检` · `实发倾向` · 撞车 · 实发建议
+`OP合同` · `info_density` · **`OP阶段`** · `盲点候选` · **`跨批禁复用`** · `thread_mode` · `核实来源` · `节奏自检` · `实发倾向` · 撞车 · 实发建议
 
 ---
 

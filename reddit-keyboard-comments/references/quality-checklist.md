@@ -35,7 +35,9 @@
 
 ### 实发附加
 
-- [ ] **human-voice-gate** 实发优先级已满足
+- [ ] **`OP阶段`** 已标 · **human-voice-gate** 该阶段实发优先级已满足
+- [ ] **探索期** 实发 ≤18 词 · 非事后 software 盲点
+- [ ] **跨批禁复用** 已填
 - [ ] 具名 SKU → **核实来源** 已在输出块列出；无来源 → 不得实发
 - [ ] Filler 帖：Show don't conclude 豁免仍适用
 - [ ] ≤30 词 · 禁 hype `tough`/`insane`

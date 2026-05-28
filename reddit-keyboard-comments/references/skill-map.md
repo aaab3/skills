@@ -41,7 +41,9 @@ flowchart TB
 | 冲突 | 裁定 |
 |------|------|
 | 不像 AI vs 有用 | **Blind Spot**：具体+随口+核实；不靠纯废话实发 |
-| info_thin vs 盲点 | thin 禁 SKU **推荐** · **允许 0–1 核实盲点** |
+| info_thin vs 盲点 | thin 禁 SKU **推荐** · 盲点可进池 · **探索期实发** 见 `OP阶段` |
+| 全局盲点优先 vs 探索 | **已废** · 实发按 `OP阶段`（`human-voice-gate`） |
+| 跨批句式 | `execution-runbook` 跨批去重 + Desktop 必读 |
 | 观察 vs 盲点 | OP 已述困境 ≠ 盲点（`blind-spot-examples` 反例） |
 | 共鸣 vs 节奏 | 共鸣须 thread **未说过**；仅 lol = 节奏 |
 | 5 Rules vs 备选 | 仅 **实发 1 条** 跑 5 Rules |

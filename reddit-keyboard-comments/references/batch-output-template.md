@@ -11,7 +11,11 @@
 
 **info_density：** sufficient | thin
 
+**OP阶段：** 探索 | 比较 | 已购/故障
+
 **盲点候选：** … | 无
+
+**跨批禁复用：** 已扫 Desktop · 本批避开 …
 
 **thread_mode：** …
 
@@ -41,8 +45,9 @@
 
 | 字段 | 来源 |
 |------|------|
-| 盲点候选 | `op-info-gate.md` |
-| 实发倾向 | `batch-rhythm-gate.md` |
+| OP阶段 · 盲点候选 | `op-info-gate.md` |
+| 跨批禁复用 | `execution-runbook.md` · `batch-rhythm-gate.md` §C |
+| 实发倾向 | `batch-rhythm-gate.md` · `human-voice-gate.md` |
 | Blind Spot 写法 | `blind-spot-gate.md` |
 
 *路径：`reddit-keyboard-comments/references/batch-output-template.md`*

@@ -25,6 +25,7 @@ Replacing a skill folder: move the old tree to `_backup/{skill-name}-YYYY-MM-DD/
 
 ## Recent changes (2026-05-28)
 
+- **reddit-keyboard-comments v2.3:** `OP阶段`（探索/比较/已购）分叉实发优先级；跨批去重（扫 Desktop）；探索期禁事后 software 盲点实发；`quality-comment-examples` §11；`community-high-comments.md`。
 - **reddit-keyboard-comments v2.2:** Blind Spot gate + blind-spot-examples + your-upvoted-samples（得赞原因轴）；实发倾向；info_thin 允许核实盲点。
 - **reddit-keyboard-comments v2.1:** runbook Phase 2 内联 style-guide 核心；假摩擦句法测试。
 - **reddit-keyboard-comments v2:** `execution-runbook` 四阶段；`op-info-gate`, `batch-rhythm-gate`；备选/实发分流；具名 SKU `核实来源`。

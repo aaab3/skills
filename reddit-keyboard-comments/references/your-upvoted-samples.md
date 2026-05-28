@@ -7,14 +7,14 @@
 
 ## 得赞原因标签
 
-| 标签 | 实发优先级（Help） |
-|------|-------------------|
-| **盲点** | 最高（须核实） |
-| **踩坑防止** | 高（故障/购买坑） |
-| **共鸣** | 高（楼里/OP 未说过） |
-| **新角度** | 中（饱和帖） |
-| **节奏** | 低（备选池） |
-| **顾问** | 仅作反例 · 禁实发 |
+| 标签 | 实发优先级（Help · 见 `OP阶段`） |
+|------|-------------------------------|
+| **盲点** | **比较期** 最高 · **探索期** 仅「改方向」· 事后坑禁实发 |
+| **共鸣** | **探索期** 最高 |
+| **踩坑防止** | 已购/故障 · Diagnostic |
+| **新角度** | 比较期 · §11 推翻轴 |
+| **节奏** | 备选池 |
+| **顾问** | 反例 · 禁实发 |
 
 ---
 
@@ -30,7 +30,36 @@
 
 ---
 
-## 样例（可替换为你的真实高赞）
+## 你的有赞评论（2026-05 · 若为你本人所发请保留）
+
+### Help · 低档键盘 · good enough
+
+**得赞原因：** 推翻前提  
+**评论：** the point about "good enough" is underrated. most people can't tell the difference past a certain level anyway  
+**为何：** 站 OP · 改比较轴 · 无顾问双分支  
+**核实：** [帖](https://old.reddit.com/r/keyboards/comments/1t7jptx/in_praise_of_the_lowest_tier_keyboards/?sort=top)
+
+---
+
+### Gallery · Mode · 铜底 9009
+
+**得赞原因：** 反差/接图  
+**评论：** love seeing mode builds that aren't just the standard silver/aluminum. copper bottom is such a flex. the 9009 keycaps go perfectly with it too — that retro aesthetic without being over the top  
+**为何：** 情绪→具体件→审美一句 · 非 `looks good`  
+**核实：** [帖](https://old.reddit.com/r/MechanicalKeyboards/comments/1t6rf20/?sort=top)
+
+---
+
+### Ergo 分享 · Q11（非 keyboards/MK sub）
+
+**得赞原因：** 共鸣 + 盲点  
+**评论：** q11 is great but the price tag is real. glad you found something that works for you, the jump to ergo is worth it once you get past the adjustment period  
+**为何：** 祝福 + adjustment 盲点 · 一句价  
+**核实：** [帖](https://old.reddit.com/r/Tech_Philippines/comments/1t7hnc8/) · **仅句式参考**
+
+---
+
+## 样例（合成 · 可删）
 
 ### Help · 全尺寸 · 独立媒体键
 

@@ -11,7 +11,8 @@
 |------|------|
 | 字段齐全 | 含 `盲点候选` · `实发倾向` |
 | Blind Spot | Phase1 有候选则池 0–1；`dedicated media row is rare` = 观察非盲点 |
-| 实发 | 盲点核实 > 共鸣 > 问 OP（thin 无盲点时） |
+| 实发 | **按 `OP阶段`**（`human-voice-gate.md`）· 非全局盲点优先 |
+| 跨批 | 已填 `跨批禁复用` · 禁连续 `worth checking` 实发 |
 | 假摩擦 | 句法测试通过 |
 | 备选池 | 仅 3 项质检（撞车/假史/Ban） |
 | 实发 | 5 Rules + human-voice 优先级 |
@@ -27,8 +28,10 @@
 | 项 | 预期 |
 |----|------|
 | info_density | **thin** |
-| 盲点候选 | volume/HID/软件 或 `无` |
-| 实发 | **盲点**（若核实）> 共鸣 > `budget?` · **非**「media row is rare」实发 |
+| OP阶段 | **探索** |
+| 盲点候选 | listing/Fn 误导 或 desk footprint · 可池内留 software/HID 标 **事后坑** |
+| 实发 | **共鸣** > 好问题 > **改方向盲点** · **非** software/HID 事后坑实发 · **非**「media row is rare」 |
+| 实发字数 | 探索期 ≤18 词 |
 | Tradeoff | 0 |
 
 ### [1tpt963 IROK vs Real67](https://www.reddit.com/r/keyboards/comments/1tpt963/)
