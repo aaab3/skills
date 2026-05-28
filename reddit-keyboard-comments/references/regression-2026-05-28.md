@@ -10,6 +10,8 @@
 | 检查 | 要求 |
 |------|------|
 | 字段齐全 | batch-output-template 必填无漏 |
+| Phase 2 原则 | runbook 写前 5 条已应用（非仅 human-voice 配比） |
+| 假摩擦 | 实发 Scratchy 通过句法测试（删 tbh/idk 后非完整建议） |
 | 备选池 | 仅 3 项质检（撞车/假史/Ban） |
 | 实发 | 5 Rules + human-voice 优先级 |
 | 节奏 | `节奏自检: 像不同时间写的 ✓` |

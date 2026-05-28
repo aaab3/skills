@@ -18,6 +18,18 @@
 
 ## Phase 2 · 写池（10–12 条）
 
+### 写前核心原则（来自 comment-style-guide · 每次执行，不另读全文）
+
+1. **One action** — 一条只做一事：反应 / 判断 / 纠正 / 问 OP / 选边 / 快修；不要意见+理由+总结打包。
+2. **Show don't conclude** — Help/Observation 禁空夸 `built solid`；Gallery Filler 可 `looks good`（跟顶评）。
+3. **10–12 = 备选池** — 不是 10 篇最佳答案；允许一条很平、一条很短、一条没说完。
+4. **Ban List（高频禁词）** — `genuinely` · `game changer` · `the real unlock` · `at scale` · `workflow`（名词）；一条里 **≥2 个** → 重写。
+5. **Scratchy ≠ 装饰 tbh** — `tbh`/`idk`/`maybe` 须在「还在想」处；删掉后若仍是完整建议 → 假摩擦（见 `human-voice-gate.md` §句法测试）。
+
+完整展开 → `comment-style-guide.md`（on-demand）。
+
+---
+
 按 `thread_mode` + `info_density` 配比（`info_thin` 覆盖 help 配比，见 `op-info-gate.md`）。
 
 | 条件 | 必读 | 不读 |
@@ -70,7 +82,7 @@
 | 文件 | 何时 |
 |------|------|
 | `quality-comment-examples.md` | 陌生帖型，只读对应一节 |
-| `comment-style-guide.md` | Ban List 存疑 |
+| `comment-style-guide.md` | 完整版（Phase 2 已内联核心 5 条；争议措辞再查） |
 | `comment-patterns.md` | **已废弃执行** — 维护者对照 human-voice-gate |
 | `communities.md` · `subreddit-context.md` | 版规争议 |
 | `account-safety.md` | 新号 / 高 karma 风险 |

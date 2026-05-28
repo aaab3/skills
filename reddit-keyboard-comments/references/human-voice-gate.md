@@ -62,6 +62,29 @@ both HE wired 8k — I'd pick on layout not brand tbh
 
 **假摩擦 ≠** 在 Tradeoff 前加 `tbh`。
 
+### 句法测试：`tbh` / `idk` / `maybe` 放哪
+
+**判定：** 删掉 `tbh`/`idk`/`maybe` 后，若仍是一句**完整建议或结论** → **假摩擦**，改短或改成问 OP。
+
+| 假摩擦（装饰） | 真摩擦（判断未闭合） |
+|----------------|----------------------|
+| `I'd go max for F row, tbh idk` | `snap tap maybe? idk` |
+| `both are solid, not sure which is better tbh` | `K70 line is weird, haven't kept up` |
+| `Das is a good pick I guess, depends on your budget tbh` | `dedicated media keys are still a pain lol` |
+| `honestly either works, idk`（两句都是结论） | `not sure the perf gap is even real` |
+
+**改稿示例（同话题）：**
+
+```text
+❌ 假：I'd pick the Max for F row in comp, tbh idk though
+✅ 真：F row or no F row, that's the whole thing for comp imo
+
+❌ 假：Both are wired HE with 8k, so either is fine, not sure which you'd prefer tbh
+✅ 真：both wired 8k — I'd pick on layout not brand
+```
+
+**规则：** `idk` 后面不能再接「所以你应该…」；`tbh` 不能接在已经说完的顾问句尾巴上。
+
 ---
 
 ## 第一人称 · 与禁假史
@@ -91,6 +114,6 @@ both HE wired 8k — I'd pick on layout not brand tbh
 - [ ] Tradeoff ≤1 · `info_thin` 时 Tradeoff=0  
 - [ ] `batch-rhythm-gate` 节奏自检 ✓  
 - [ ] 实发不是全批最「完整顾问」的一条  
-- [ ] 无假摩擦 Scratchy  
+- [ ] 无假摩擦 Scratchy（通过 §句法测试：删掉 tbh/idk 后非完整建议）  
 
 *路径：`reddit-keyboard-comments/references/human-voice-gate.md`*

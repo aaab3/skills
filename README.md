@@ -25,7 +25,8 @@ Replacing a skill folder: move the old tree to `_backup/{skill-name}-YYYY-MM-DD/
 
 ## Recent changes (2026-05-28)
 
-- **reddit-keyboard-comments v2:** `execution-runbook` 四阶段执行入口；`op-info-gate`, `batch-rhythm-gate`；备选/实发分流质检；具名 SKU 强制 `核实来源`。
+- **reddit-keyboard-comments v2.1:** runbook Phase 2 内联 style-guide 核心 5 条；human-voice 假摩擦句法测试（tbh/idk 位置）。
+- **reddit-keyboard-comments v2:** `execution-runbook` 四阶段；`op-info-gate`, `batch-rhythm-gate`；备选/实发分流；具名 SKU `核实来源`。
 - **reddit-keyboard-comments:** Comments 版（keyboards/MK）；`thread-router`, `dedup-gate`, `human-voice-gate`, `skill-map`。
 
 ## Recent changes (2026-05)

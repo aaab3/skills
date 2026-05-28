@@ -24,7 +24,7 @@ description: >-
 | 阶段 | 做什么 |
 |------|--------|
 | **1 读帖** | fetch → thread-router → **op-info-gate** → OP合同一句 |
-| **2 写池** | 10–12 备选（Type D 才开 playbook §0–2） |
+| **2 写池** | runbook 写前 5 原则 → 10–12 备选（Type D 才开 playbook §0–2） |
 | **3 批检** | dedup → **batch-rhythm** → human-voice |
 | **4 实发** | 选 1 条 → **5 Rules 仅实发** → Desktop md |
 

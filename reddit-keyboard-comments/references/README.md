@@ -7,7 +7,7 @@
 | 文件 | 用途 |
 |------|------|
 | `../SKILL.md` | 边界 · 4 阶段 |
-| `execution-runbook.md` | **唯一执行入口** |
+| `execution-runbook.md` | **唯一执行入口**（Phase 2 含 style-guide 核心 5 条） |
 | `thread-router.md` | thread_mode |
 | `op-info-gate.md` | info_density · thin 配比 |
 | `dedup-gate.md` | 撞车 |

@@ -35,8 +35,8 @@ flowchart TB
 
 | 运行时（每次） | On-demand |
 |----------------|-----------|
-| execution-runbook | quality-comment-examples（单节） |
-| thread-router · op-info-gate | comment-style-guide |
+| execution-runbook（含 style-guide **核心 5 条**） | quality-comment-examples（单节） |
+| thread-router · op-info-gate | comment-style-guide（完整版） |
 | dedup · batch-rhythm · human-voice | communities · subreddit-context |
 | batch-output-template · quality-checklist | keyboard-domain-guide · account-safety |
 | real-comments · mk-thread-samples | research-protocol（Type D 时升必读） |
@@ -54,6 +54,8 @@ flowchart TB
 | Tradeoff vs info_thin | **thin → Tradeoff 0** |
 | 具名 SKU vs 摩擦 | Scratchy 禁 depends+SKU；核实行尾必填 URL |
 | 节奏 vs 单条属性 | **batch-rhythm** 整批先于选实发 |
+| style-guide 核心 vs human-voice 配比 | **原则** 在 runbook Phase 2 写前必读；**配比** 在 human-voice Phase 3 |
+| Scratchy vs 装饰 tbh | **句法测试**：删 tbh/idk 后仍完整句 → 假摩擦 |
 
 ---
 
