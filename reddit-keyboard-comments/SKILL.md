@@ -1,13 +1,13 @@
 ---
 name: reddit-keyboard-comments
 description: >-
-  Comments 版 · 仅 r/keyboards 与 r/MechanicalKeyboards。thread_mode · 10–12 备选 · Filler · 🟢🟡🔴 · dedup。
-  输出 C:\Users\a\Desktop\评论\。非 keyboards/MK 用 reddit-keyboard-promotion。
+  Comments 版 · r/keyboards + r/MechanicalKeyboards。4 阶段 runbook · op-info · batch-rhythm ·
+  实发/备选分流质检 · 具名 SKU 须核实来源。输出 Desktop\评论\。
 ---
 
 # Reddit 键盘评论 · Comments 版
 
-> **技能路径：** `.cursor/skills/reddit-keyboard-comments`（唯一副本）  
+> **执行入口：** `references/execution-runbook.md`（唯一）  
 > **结构：** `references/skill-map.md`
 
 ## 边界
@@ -19,59 +19,38 @@ description: >-
 
 ---
 
-## 工作流
+## 工作流（4 阶段）
 
-1. **`fetch-playbook.md`** — WebFetch old.reddit  
-2. **`thread-router.md`** — 定 **thread_mode** + 配比  
-3. **`mk-thread-samples.md`** — 锚帖对照（可选）  
-4. **楼里在聊什么** > OP；Gallery 楼聊图时勿写轴/壳顾问  
-5. **`quality-comment-examples.md`** 对应节 + **`real-comments.md`** 扫 3 条  
-6. **10–12 条**（备选池，非 10 条都要发）  
-7. **`dedup-gate.md`** — 顶评摘录 + 撞车  
-8. **`human-voice-gate.md`** — Help/Type D 反模板（Tradeoff≤1 · 长度参差 · 口吻）  
-9. **`quality-checklist.md`**（按 Filler / Help 分流）  
-9. **`C:\Users\a\Desktop\评论\YYYY-MM-DD-{简述}.md`**
+| 阶段 | 做什么 |
+|------|--------|
+| **1 读帖** | fetch → thread-router → **op-info-gate** → OP合同一句 |
+| **2 写池** | 10–12 备选（Type D 才开 playbook §0–2） |
+| **3 批检** | dedup → **batch-rhythm** → human-voice |
+| **4 实发** | 选 1 条 → **5 Rules 仅实发** → Desktop md |
 
-Type D → **`product-recommendation-playbook.md`**
+详 **`execution-runbook.md`** · 输出 **`batch-output-template.md`**
 
 ---
 
-## 输出格式
+## 输出必填
 
-```markdown
-### [链接]
-
-**thread_mode：** gallery_quiet
-**楼里：** …
-**楼里顶评摘录：** …
-
-1. English — 中文 | 类型: Filler | 🟢 | 低 karma 可发
-…
-
-**Filler：** …
-**撞车：** …
-**优先级：** …
-**实发建议：** …
-```
-
-详 **`batch-output-template.md`**
+`OP合同` · `info_density` · `thread_mode` · `楼里顶评摘录` · `核实来源` · `节奏自检` · 撞车 · 实发建议
 
 ---
 
-## Filler（默认 · saturated_meme 见 thread-router）
+## Filler（默认 · 见 thread-router）
 
 | Sub | 条数 |
 |-----|------|
 | r/keyboards | 2–3 |
-| r/MechanicalKeyboards | **1–2**（meme 饱和可 3–4） |
+| r/MechanicalKeyboards | 1–2（saturated_meme 可 3–4） |
 
 ---
 
 ## 写稿要点
 
-- **3–10 词最安全** · ≤30 词  
-- Show don't conclude **（Filler 可空夸 looks good）**  
-- 情绪跟顶评 · 禁 `tough`/`insane` hype  
-- 10 条 = **给你挑** · 勿顾问体 · 勿假史  
+- 3–10 词最安全 · 10 条 = 备选池 · 实发常 0–1  
+- `info_thin` → 问 OP / 废话优先 · **禁 Tradeoff / 具名 SKU**  
+- 具名 SKU → `| 核实: URL` 否则 🔴  
 
-详 `references/README.md`
+Type D → **`product-recommendation-playbook.md`**

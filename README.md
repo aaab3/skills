@@ -25,7 +25,8 @@ Replacing a skill folder: move the old tree to `_backup/{skill-name}-YYYY-MM-DD/
 
 ## Recent changes (2026-05-28)
 
-- **reddit-keyboard-comments:** New Comments 版技能（从 promotion 拆出 keyboards/MK 专评）；含 `thread-router`, `dedup-gate`, `human-voice-gate`, `skill-map` 等 references。
+- **reddit-keyboard-comments v2:** `execution-runbook` 四阶段执行入口；`op-info-gate`, `batch-rhythm-gate`；备选/实发分流质检；具名 SKU 强制 `核实来源`。
+- **reddit-keyboard-comments:** Comments 版（keyboards/MK）；`thread-router`, `dedup-gate`, `human-voice-gate`, `skill-map`。
 
 ## Recent changes (2026-05)
 

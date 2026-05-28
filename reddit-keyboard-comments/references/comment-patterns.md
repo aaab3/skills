@@ -1,5 +1,7 @@
 # Comment Patterns
 
+> **执行已废弃** — 写稿用 `human-voice-gate.md`（Pick-side / Casual / Scratchy / Tradeoff）。本文件仅维护者对照旧 Tradeoff 结构。
+
 Choose ONE contribution type per comment. Do not combine.
 
 The three types are:

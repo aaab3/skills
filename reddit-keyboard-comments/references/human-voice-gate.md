@@ -1,89 +1,96 @@
-# Human Voice Gate（Help / Type D · 发前）
+# Human Voice Gate（Phase 3 · 发前）
 
-> 解决「模板感」：Tradeoff 骨架刷屏 · 长度均匀 · 零摩擦 · 无第一人称。  
-> 与 `dedup-gate` 并行；**实发 1 条**时只过本 gate 选中的那条。
+> 解决「模板感」：Tradeoff 刷屏 · 长度均匀 · 假摩擦 · 无第一人称。  
+> **整批节奏** → `batch-rhythm-gate.md`（先于本文件选实发）。
 
 ---
 
-## 批量 10–12 条的配比（Help 帖）
+## 批量 10–12 条的配比（Help · `info_density=sufficient`）
 
 | 类型 | 条数 | 说明 |
 |------|------|------|
-| **短**（1–8 词） | **3–4** | `F keys or no lol` · `what games?` |
-| **选边 / 经历口吻** | **2–3** | 带 I · 有立场 · 可半句断掉 |
-| **Tradeoff（A 但 B）** | **≤1** | 全批最多一条，勿 #2 #4 #6 三连 |
+| **短**（1–8 词） | **3–4** | `what games?` |
+| **选边 / 经历口吻** | **2–3** | 带 I · 有立场 |
+| **Tradeoff（A 但 B）** | **≤1** | 全批最多一条 |
 | **Diagnostic / 规格** | **1–2** | 仅核实过的 fact |
-| **摩擦 / 不确定** | **≥1** | `tbh idk if snap tap matters` · `max software annoys me` |
-| **纯废话** | **≥1** | 不提供信息但像真人：`why is this still hard in 2026` |
-| **问 OP** | **0–1** | `what games you play?` 优于 `if you use F keys` |
+| **摩擦 / 不确定** | **≥1** | 见下「真摩擦」 |
+| **纯废话** | **≥1** | 零信息但像人 |
+| **问 OP** | **0–1** | 口语问句 |
 
-**长度必须参差**：最短 2 词，最长可 25 词；禁止 12 条全是 15–25 词。
+**`info_thin`：** 见 `op-info-gate.md`（Tradeoff 0 · 具名 SKU 0）。
+
+**长度参差：** 最短 2 词，最长可 25 词；节奏见 `batch-rhythm-gate.md`。
 
 ---
 
-## 四种口吻（每条择一 · 实发优先 2 或 3）
+## 四种口吻（每条择一）
 
-### 1. Pick-side（选边站）
-不解释两边，说你会怎么选 / 你站哪边。
+### Pick-side
 ```text
 I'd go max just for the F row, 65% drove me nuts in comp
 ```
 
-### 2. Casual（随口）
-一个角度，说不完整。
+### Casual
 ```text
 F keys or no F keys, that's literally the whole decision lol
 ```
 
-### 3. Scratchy（摩擦）
-不确定、吐槽、承认不懂。
+### Scratchy（真摩擦）
 ```text
 honestly idk if real67's snap tap is worth caring about vs just having F keys
 ```
 
-### 4. Tradeoff（顾问骨架 · 稀缺使用）
-全批 ≤1 条；结构 `good for X, but if Y then Z`。
+### Tradeoff（稀缺 · `info_thin` 禁）
 ```text
 both HE wired 8k — I'd pick on layout not brand tbh
 ```
 
 ---
 
-## 第一人称 · 与禁假史的分界
+## 假摩擦 vs 真摩擦（Scratchy 必读）
 
-| 禁（假史） | 可（人味） |
-|------------|------------|
-| `own the max, love it`（声称持某 SKU） | `I switched from a 65% and hated the first week`（**配列经历**，不绑具体型号） |
-| `had mine 3 weeks`（无帖上下文） | `I'd probably grab the max for F row`（**我会**，非「我买了」） |
-| `bugged me too`（无 OP 述故障） | `max software looks annoying from the videos`（**观察**，非所有权） |
-| 与顶评撞车的 `anyday` | `what games you playing?` |
+| 假摩擦（仍像 AI） | 真摩擦 |
+|-------------------|--------|
+| `tbh both are good options` | `idk if snap tap even matters here` |
+| `not sure which is better for you` | `K70 line is a mess, check exact model` |
+| `I could be wrong but Das is solid` | `Das is pricey tho` |
+| `honestly it depends on your needs` | `why is dedicated media still this hard lol` |
+| 句首 tbh + **完整顾问句** | **半句断掉** / 只吐槽一点 |
+| 假摩擦 + **仍列 3 spec** | 真摩擦 + **零型号** 或模糊一句 |
 
-**原则：** 可写 **I / I'd / I switched layout**；禁写 **I own [OP 提到的 exact SKU]** 除非用户本人提供真实经历。
+**硬规则：** Scratchy **不得同时** 含 `depends` / `on the other hand` / `if you care about` **且** 具名 SKU。
+
+**假摩擦 ≠** 在 Tradeoff 前加 `tbh`。
 
 ---
 
-## 实发 1 条时的优先级
+## 第一人称 · 与禁假史
+
+| 禁 | 可 |
+|----|-----|
+| `own the max` | `I'd grab max for F row` |
+| `had mine 3 weeks`（无帖上下文） | `I switched from 65%, first week sucked` |
+| 撞顶评 `anyday` | `what games you playing?` |
+
+---
+
+## 实发 1 条优先级
 
 ```
 短问 OP > Pick-side / Casual > Scratchy > 单 fact > Tradeoff
 ```
 
-楼已双推 Max 时：实发 **别第三条推 Max**；发 **布局问句 / 选边 / 摩擦**，勿再 `depends on X or Y`。
-
-**空楼首评：** 禁 **总结陈词**（`basically X or Y, everything else Z`）· 禁 **规格表式推荐**（一条里堆 3+ spec）。
-
-**具名型号：** 一句 **一个** 最想说的点 · 其余让 OP 查。系列名分裂（如 K70 Core vs MAX）→ **不笼统推系列** 或标 🔴。
+- 楼已站边 → 别第三条复读同款推荐  
+- 空楼首评 → 禁总结陈词 · 禁规格表推荐  
+- 具名：**一句一个卖点** · 系列分裂（K70）禁笼统推
 
 ---
 
-## 反模板自检（整批）
+## 反模板自检（实发那条 + 整批）
 
-- [ ] Tradeoff 骨架 **≤1** 条？
-- [ ] 有 **3+ 条 ≤8 词**？
-- [ ] 有 **≥1 条** 带 I 或 tbh/idk/lol？
-- [ ] 12 条长度 **不同**（不是复制粘贴改几个词）？
-- [ ] 实发那条 **不是** 全批里最「完整顾问」的一条？
-- [ ] 具名推荐 **≤1 个卖点**（非 spec 清单）？
-- [ ] 空楼首评 **不是** Tradeoff 总结句？
+- [ ] Tradeoff ≤1 · `info_thin` 时 Tradeoff=0  
+- [ ] `batch-rhythm-gate` 节奏自检 ✓  
+- [ ] 实发不是全批最「完整顾问」的一条  
+- [ ] 无假摩擦 Scratchy  
 
 *路径：`reddit-keyboard-comments/references/human-voice-gate.md`*

@@ -8,10 +8,11 @@
 ## 判定流程
 
 ```
+0. op-info-gate.md → info_density（sufficient | thin）
 1. comment_count（约）
 2. 读顶评 5–8 条（去 bot）→ 梗为主 or 维修/购买为主 or 短夸
 3. 帖型 flair：Gallery/Builds vs Help/Question vs Discussion
-4. 选 thread_mode → 按配比写稿
+4. 选 thread_mode → 按配比写稿（info_thin 覆盖 help 配比）
 ```
 
 ---

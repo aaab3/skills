@@ -5,32 +5,40 @@
 ```markdown
 # YYYY-MM-DD 评论草稿
 
-### https://www.reddit.com/r/MechanicalKeyboards/comments/...
+### https://www.reddit.com/r/...
 
-**thread_mode：** gallery_quiet | gallery_busy | help_fresh | saturated_meme | saturated_help
+**OP合同：** …（一句话）
 
-**楼里：** 顶评在聊什么（1–2 句）
+**info_density：** sufficient | thin
+
+**thread_mode：** gallery_quiet | help_fresh | …
+
+**楼里：** …
 
 **楼里顶评摘录：**
-- Looks good.
 - …
 
-1. English — 中文 | 类型: Filler | 🟢 | 低 karma 可发
-2. …
-（10–12 条）
+**核实来源：**
+- （无 SKU 写「无」）
+- Das Keyboard 4 → https://www.daskeyboard.com/daskeyboard-4-professional
 
-**Filler：** keyboards 2 / MK 1（或 saturated 配比）
-**撞车：** #2 与顶评逐字相同 · …
-**优先级：** 🟢 #1 #3 … · 🟡 … · 🔴 …
+**节奏自检：** 像同一人不同时间写的 ✓
+
+1. English — 中文 | 类型: … | 🟢 | 核实: URL（具名 SKU 必填，否则 🔴）
+2. …
+
+**撞车：** …
+**Filler：** …
+**优先级：** …
 **实发建议：** 0–1 条 · 首选 #…
 ```
 
-**字段说明**
+**缺字段 = 未完成**（`execution-runbook.md` Phase 4）。
 
 | 字段 | 来源 |
 |------|------|
-| thread_mode | `thread-router.md` |
-| 顶评摘录 / 撞车 | `dedup-gate.md` |
-| 类型 / 🟢🟡🔴 | `quality-checklist.md` |
+| info_density | `op-info-gate.md` |
+| 节奏自检 | `batch-rhythm-gate.md` |
+| 核实来源 | `product-recommendation-playbook.md` |
 
 *路径：`reddit-keyboard-comments/references/batch-output-template.md`*

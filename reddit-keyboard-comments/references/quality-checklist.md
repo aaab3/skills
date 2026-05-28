@@ -1,71 +1,59 @@
 # Quality Checklist
 
-发前按 **类型分流**。`thread_mode` 见 `thread-router.md`。
+**分流执行**（见 `execution-runbook.md`）：备选池 ≠ 实发。
 
 ---
 
-## 通用（全部备稿）
+## 备选池 10–12 条（仅 3 项）
 
-- [ ] **thread_mode** 与顶评链一致（非只读 OP）
-- [ ] **楼里在聊什么** — 接顶评，非 OP 独有顾问角
-- [ ] Gallery 楼聊图/键帽 — 禁轴/壳/听感攻略
-- [ ] **dedup** — 无顶评逐字复刻 · 近义维修 ≤1（`saturated_meme`）
-- [ ] **禁假史** — 无编造购买/故障/ `bugged me too`
-- [ ] **禁 hype** — 无 `tough` / `insane combo`（跟顶评平调）
-- [ ] **≤30 词** · 小写可 · 半句可
-- [ ] **Ban List**（`comment-style-guide.md`）— 无 `genuinely` / `the real unlock` 等
-- [ ] Type D 规格经 `product-recommendation-playbook.md` 或核实
+- [ ] **撞顶评** — 无逐字复刻（`dedup-gate`）
+- [ ] **禁假史** — 无编造持机/故障/me-too
+- [ ] **Ban List** — 无 `genuinely` / `the real unlock` / `game changer` 等（`comment-style-guide.md`）
+
+**不跑** 5 Rules · 不逐条 Show don't conclude。
 
 ---
 
-## Filler / Reaction（gallery_* · saturated_meme 主）
+## 通用（写池时心里有数）
 
-**不跑** 下方 Help 5 Rules。Show don't conclude **豁免** — 可 `looks good` / `lol` / `?`。
-
-- [ ] **3–10 词** 优先
-- [ ] 情绪跟顶评（平/梗/短）
-- [ ] 无 teachy 维修摘要刷屏
-- [ ] MK Filler 条数：默认 1–2 · `saturated_meme` 可 3–4
+- [ ] `thread_mode` + `info_density` 已填
+- [ ] Gallery 楼聊图 — 禁轴/壳顾问
+- [ ] 具名 SKU 行含 `| 核实: URL` 或 `| 核实: 未核实→🔴`
+- [ ] `info_thin` — 无 Tradeoff · 无具名 SKU
 
 ---
 
-## Help / Observation / Type D（help_fresh · 非饱和维修帖）
+## 实发 1 条（完整 5 Rules）
 
-### 5 Rules
+**仅对「实发建议」选中的那 1 条：**
 
-1. **One contribution type** — Tradeoff OR Diagnostic OR Specific Observation
+1. **One contribution type** — Tradeoff OR Diagnostic OR Specific Observation OR 问 OP / Scratchy（非顾问拼凑）
 2. **One concrete detail** — 来自 OP/楼，非编造
-3. **One judgment + one reason**
+3. **One judgment + one reason**（问句/废话可豁免）
 4. **Zero or one question**
 5. **No invented facts**
 
-### Show don't conclude（本类适用）
+### 实发附加
 
-- [ ] 正面判断带 **具体件/症状/价**（OP 或楼已出现）
-- [ ] 非空夸 `built solid` / `switches feel amazing`
-
-### Contribution type（择一）
-
-- [ ] Tradeoff · Diagnostic · Specific Observation
+- [ ] **human-voice-gate** 实发优先级已满足
+- [ ] 具名 SKU → **核实来源** 已在输出块列出；无来源 → 不得实发
+- [ ] Filler 帖：Show don't conclude 豁免仍适用
+- [ ] ≤30 词 · 禁 hype `tough`/`insane`
 
 ---
 
-## 实发建议
+## Filler 帖（gallery_* · saturated_meme）
 
-| thread_mode | 通常实发 |
-|-------------|----------|
-| gallery_quiet / gallery_busy | 0–1 |
+备选池 + 实发均：**3–10 词优先** · 跟顶评情绪 · 无维修 FAQ 刷屏。
+
+---
+
+## 实发数量
+
+| thread_mode | 通常 |
+|-------------|------|
+| gallery_* / saturated_meme | 0–1 |
 | help_fresh | 1–2 |
-| saturated_meme | **0–1**（常 0） |
-| saturated_help | 0–1 或不建议发 |
-
-**优先级：** 无撞车 🟢 > 无撞车 🟡 > 撞车
-
----
-
-## 已移除 / 勿用
-
-- ~~Product Hunt Upvoted 👍 比例~~ — 本技能仅 MK/keyboards，PH 规则不适用
-- ~~每条必须 5 Rules~~ — 与 Filler 冲突，已分流
+| `info_thin` | 0–1（常问句或不建议发） |
 
 *路径：`reddit-keyboard-comments/references/quality-checklist.md`*
