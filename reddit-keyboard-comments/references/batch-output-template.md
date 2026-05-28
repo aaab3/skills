@@ -7,11 +7,13 @@
 
 ### https://www.reddit.com/r/...
 
-**OP合同：** …（一句话）
+**OP合同：** …
 
 **info_density：** sufficient | thin
 
-**thread_mode：** gallery_quiet | help_fresh | …
+**盲点候选：** … | 无
+
+**thread_mode：** …
 
 **楼里：** …
 
@@ -19,26 +21,28 @@
 - …
 
 **核实来源：**
-- （无 SKU 写「无」）
-- Das Keyboard 4 → https://www.daskeyboard.com/daskeyboard-4-professional
+- 无 | SKU/事实 → URL
 
 **节奏自检：** 像同一人不同时间写的 ✓
 
-1. English — 中文 | 类型: … | 🟢 | 核实: URL（具名 SKU 必填，否则 🔴）
+**实发倾向：**
+- 盲点/信息：#7（…）
+- 共鸣：#3（…）
+- 首选实发：#7 · …
+
+1. English — 中文 | 类型: Blind Spot | 得赞: 盲点 | 🟢 | 核实: …
 2. …
 
 **撞车：** …
-**Filler：** …
-**优先级：** …
-**实发建议：** 0–1 条 · 首选 #…
+**实发建议：** 0–1 · #…
 ```
 
-**缺字段 = 未完成**（`execution-runbook.md` Phase 4）。
+**备稿行建议字段：** `类型` · `得赞原因`（盲点/共鸣/节奏/顾问）· 🟢🟡🔴 · `核实:`
 
 | 字段 | 来源 |
 |------|------|
-| info_density | `op-info-gate.md` |
-| 节奏自检 | `batch-rhythm-gate.md` |
-| 核实来源 | `product-recommendation-playbook.md` |
+| 盲点候选 | `op-info-gate.md` |
+| 实发倾向 | `batch-rhythm-gate.md` |
+| Blind Spot 写法 | `blind-spot-gate.md` |
 
 *路径：`reddit-keyboard-comments/references/batch-output-template.md`*

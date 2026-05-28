@@ -1,92 +1,87 @@
 # Execution Runbook（唯一执行入口）
 
-> 写评论时 **只跟本文件 + Phase 内列出的子文件**。其余 references 为 **on-demand**，见文末表。  
-> 输出缺必填字段 = 未完成。
+> 写评论时 **只跟本文件 + Phase 内列出的子文件**。输出缺必填字段 = 未完成。
 
 ---
 
 ## Phase 1 · 读帖
 
 1. **`fetch-playbook.md`** — old.reddit `?sort=top`
-2. **`thread-router.md`** — 定 `thread_mode`
-3. **`op-info-gate.md`** — 定 `info_density`：`sufficient` | `thin`
-4. 写一句 **OP合同**（中文可对用户）
+2. **`thread-router.md`** — `thread_mode`
+3. **`op-info-gate.md`** — `info_density` + **盲点扫描**
+4. **OP合同** 一句（中文可对用户）
 
-**产出（进入 Phase 4 模板）：** `thread_mode` · `info_density` · `OP合同`
+**产出：** `thread_mode` · `info_density` · **`盲点候选`**（0–1 或 `无`）· `OP合同`
 
 ---
 
 ## Phase 2 · 写池（10–12 条）
 
-### 写前核心原则（来自 comment-style-guide · 每次执行，不另读全文）
+### 写前核心原则
 
-1. **One action** — 一条只做一事：反应 / 判断 / 纠正 / 问 OP / 选边 / 快修；不要意见+理由+总结打包。
-2. **Show don't conclude** — Help/Observation 禁空夸 `built solid`；Gallery Filler 可 `looks good`（跟顶评）。
-3. **10–12 = 备选池** — 不是 10 篇最佳答案；允许一条很平、一条很短、一条没说完。
-4. **Ban List（高频禁词）** — `genuinely` · `game changer` · `the real unlock` · `at scale` · `workflow`（名词）；一条里 **≥2 个** → 重写。
-5. **Scratchy ≠ 装饰 tbh** — `tbh`/`idk`/`maybe` 须在「还在想」处；删掉后若仍是完整建议 → 假摩擦（见 `human-voice-gate.md` §句法测试）。
+1. **One action** — 反应 / 判断 / 问 / **盲点** / 选边，择一。
+2. **Show don't conclude** — Help 禁空夸；Filler 可 `looks good`。
+3. **10–12 = 备选池** — 允许平、短、没说完。
+4. **Ban List** — `genuinely` · `game changer` · `the real unlock` · `at scale` · `workflow`；≥2/条 → 重写。
+5. **Scratchy ≠ 装饰 tbh** — §`human-voice-gate.md` 句法测试。
+6. **Blind Spot 0–1** — Phase1 有候选则写 1 条；扫 `blind-spot-examples.md`（1 正+1 反）；**无则硬造**。
 
-完整展开 → `comment-style-guide.md`（on-demand）。
-
----
-
-按 `thread_mode` + `info_density` 配比（`info_thin` 覆盖 help 配比，见 `op-info-gate.md`）。
-
-| 条件 | 必读 | 不读 |
-|------|------|------|
-| `gallery_*` | `real-comments.md` 扫 3 条 · `mk-thread-samples.md` 可选 | `product-recommendation-playbook` · `quality-comment-examples` §1–7 |
-| `help_fresh` + `info_density=sufficient` | `human-voice-gate.md` | playbook 全文（无具名型号时） |
-| `help_fresh` + 将出现具名 SKU | `human-voice-gate.md` + **`product-recommendation-playbook.md` §0–2** + `research-protocol.md` | `quality-comment-examples` 全扫 |
-| `info_thin` | `human-voice-gate.md` + `op-info-gate.md` | playbook · Tradeoff 条 |
-
-**具名 SKU：** 每行末尾 `| 核实: URL` 或 `| 核实: 未核实→🔴`（见 playbook）。
+写前可选扫：`your-upvoted-samples.md`（1–2 条，看得赞原因）。
 
 ---
 
-## Phase 3 · 批检（整批，再选实发）
-
-顺序固定：
-
-1. **`dedup-gate.md`** — 顶评摘录 + 撞车
-2. **`batch-rhythm-gate.md`** — 整批节奏；填 **节奏自检** 一行
-3. **`human-voice-gate.md`** — Tradeoff≤1 · 假摩擦禁 · 实发优先级
-
-**备选池仅过：** `quality-checklist.md` §备选池 3 项。  
-**不要** 对 10–12 条逐条跑 5 Rules。
+| 条件 | 必读 |
+|------|------|
+| `gallery_*` | `real-comments` 3 条 · `mk-thread-samples` 可选 |
+| `help_*` | `human-voice-gate` · `blind-spot-examples`（Help 购买/对比） |
+| `info_thin` | `op-info-gate` |
+| 具名 SKU | `product-recommendation-playbook` §0–2 · 行尾 `核实:` |
 
 ---
 
-## Phase 4 · 实发 1 条
+## Phase 3 · 批检
 
-1. 按 human-voice 优先级 + dedup 选 **1 条**（常 0–1 实发）
-2. **`quality-checklist.md` §实发** — 完整 5 Rules + 型号来源（若有）
-3. **`batch-output-template.md`** — 写入 `C:\Users\a\Desktop\评论\`
+1. **`dedup-gate.md`**
+2. **`batch-rhythm-gate.md`** — 节奏自检 + **实发倾向**
+3. **`human-voice-gate.md`**
+
+备选池仅 **3 项**（`quality-checklist` §备选池）。
 
 ---
 
-## 输出必填字段（缺一则重做）
+## Phase 4 · 实发
+
+1. 按 **实发倾向** + dedup 选 1 条  
+2. **`quality-checklist` §实发** — 5 Rules  
+3. **`batch-output-template.md`** → `C:\Users\a\Desktop\评论\`
+
+---
+
+## 输出必填字段
 
 ```markdown
 **OP合同：** …
 **info_density：** sufficient | thin
+**盲点候选：** … | 无
 **thread_mode：** …
 **楼里顶评摘录：** …
-**核实来源：**（无 SKU 写「无」）
-**节奏自检：** 像不同时间写的 ✓ | 像一次生成的表格 ✗（须 Phase 3 重写）
+**核实来源：** …
+**节奏自检：** … ✓
+**实发倾向：**
+- 盲点/信息：#…
+- 共鸣：#…
+- 首选实发：#…
 ```
 
 ---
 
-## On-demand 参考（非每次打开）
+## On-demand
 
 | 文件 | 何时 |
 |------|------|
-| `quality-comment-examples.md` | 陌生帖型，只读对应一节 |
-| `comment-style-guide.md` | 完整版（Phase 2 已内联核心 5 条；争议措辞再查） |
-| `comment-patterns.md` | **已废弃执行** — 维护者对照 human-voice-gate |
-| `communities.md` · `subreddit-context.md` | 版规争议 |
-| `account-safety.md` | 新号 / 高 karma 风险 |
-| `keyboard-domain-guide.md` | 术语不懂 |
-| `regression-2026-05-28.md` | 改技能后自测 |
+| `quality-comment-examples.md` | 陌生帖型一节 |
+| `comment-style-guide.md` | 完整版 |
+| `real-comments.md` | 短句；**按类型非按得赞** — 优先金样/盲点例 |
+| `regression-2026-05-28.md` | 改技能自测 |
 
 *路径：`reddit-keyboard-comments/references/execution-runbook.md`*

@@ -1,8 +1,8 @@
 ---
 name: reddit-keyboard-comments
 description: >-
-  Comments 版 · r/keyboards + r/MechanicalKeyboards。4 阶段 runbook · op-info · batch-rhythm ·
-  实发/备选分流质检 · 具名 SKU 须核实来源。输出 Desktop\评论\。
+  Comments 版 · r/keyboards + r/MechanicalKeyboards。Blind Spot · 得赞原因 · 实发倾向 ·
+  4 阶段 runbook。输出 Desktop\评论\。
 ---
 
 # Reddit 键盘评论 · Comments 版
@@ -23,10 +23,10 @@ description: >-
 
 | 阶段 | 做什么 |
 |------|--------|
-| **1 读帖** | fetch → thread-router → **op-info-gate** → OP合同一句 |
-| **2 写池** | runbook 写前 5 原则 → 10–12 备选（Type D 才开 playbook §0–2） |
-| **3 批检** | dedup → **batch-rhythm** → human-voice |
-| **4 实发** | 选 1 条 → **5 Rules 仅实发** → Desktop md |
+| **1 读帖** | fetch → thread-router → op-info（**盲点候选**）→ OP合同 |
+| **2 写池** | 写前 6 原则 · **Blind Spot 0–1** · 扫盲点例/金样 |
+| **3 批检** | dedup → batch-rhythm（**实发倾向**）→ human-voice |
+| **4 实发** | 按倾向选 1 条 → 5 Rules → Desktop md |
 
 详 **`execution-runbook.md`** · 输出 **`batch-output-template.md`**
 
@@ -34,7 +34,7 @@ description: >-
 
 ## 输出必填
 
-`OP合同` · `info_density` · `thread_mode` · `楼里顶评摘录` · `核实来源` · `节奏自检` · 撞车 · 实发建议
+`OP合同` · `info_density` · `盲点候选` · `thread_mode` · `核实来源` · `节奏自检` · `实发倾向` · 撞车 · 实发建议
 
 ---
 

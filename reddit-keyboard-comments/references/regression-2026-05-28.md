@@ -9,9 +9,10 @@
 
 | 检查 | 要求 |
 |------|------|
-| 字段齐全 | batch-output-template 必填无漏 |
-| Phase 2 原则 | runbook 写前 5 条已应用（非仅 human-voice 配比） |
-| 假摩擦 | 实发 Scratchy 通过句法测试（删 tbh/idk 后非完整建议） |
+| 字段齐全 | 含 `盲点候选` · `实发倾向` |
+| Blind Spot | Phase1 有候选则池 0–1；`dedicated media row is rare` = 观察非盲点 |
+| 实发 | 盲点核实 > 共鸣 > 问 OP（thin 无盲点时） |
+| 假摩擦 | 句法测试通过 |
 | 备选池 | 仅 3 项质检（撞车/假史/Ban） |
 | 实发 | 5 Rules + human-voice 优先级 |
 | 节奏 | `节奏自检: 像不同时间写的 ✓` |
@@ -26,9 +27,9 @@
 | 项 | 预期 |
 |----|------|
 | info_density | **thin** |
-| 实发 | 问 OP / 纯废话 · **非** Das 规格表首评 |
+| 盲点候选 | volume/HID/软件 或 `无` |
+| 实发 | **盲点**（若核实）> 共鸣 > `budget?` · **非**「media row is rare」实发 |
 | Tradeoff | 0 |
-| Das 若出现在池 | 行尾 `核实: daskeyboard.com` 或 🔴 |
 
 ### [1tpt963 IROK vs Real67](https://www.reddit.com/r/keyboards/comments/1tpt963/)
 

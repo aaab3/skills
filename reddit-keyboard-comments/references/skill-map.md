@@ -1,7 +1,6 @@
 # 技能结构 · 信息层级与正确性
 
-> 维护者：改规则时 **先改本文冲突表**，再改子文件。  
-> 执行：**`execution-runbook.md` 唯一入口**。
+> 执行：**`execution-runbook.md`**。样例按 **得赞原因** 优先于按类型。
 
 ---
 
@@ -9,38 +8,31 @@
 
 ```mermaid
 flowchart TB
-  SKILL[SKILL.md]
   runbook[execution-runbook]
-  fetch[fetch-playbook]
-  router[thread-router]
-  opinfo[op-info-gate]
-  write[写 10-12 条]
-  dedup[dedup-gate]
-  rhythm[batch-rhythm-gate]
-  voice[human-voice-gate]
-  ship[实发 5 Rules]
-  out[Desktop 评论]
-  typeD[product-recommendation-playbook]
-  SKILL --> runbook
-  runbook --> fetch --> router --> opinfo
-  opinfo --> write
-  write --> dedup --> rhythm --> voice
-  voice --> ship --> out
-  write -->|Type D SKU| typeD
+  opinfo[op-info-gate + 盲点候选]
+  blind[blind-spot-gate + examples]
+  gold[your-upvoted-samples]
+  write[写池 10-12]
+  dedup[dedup]
+  rhythm[batch-rhythm 节奏+实发倾向]
+  voice[human-voice]
+  out[Desktop]
+  runbook --> opinfo --> write
+  blind --> write
+  gold --> write
+  write --> dedup --> rhythm --> voice --> out
 ```
 
 ---
 
 ## 运行时 vs On-demand
 
-| 运行时（每次） | On-demand |
-|----------------|-----------|
-| execution-runbook（含 style-guide **核心 5 条**） | quality-comment-examples（单节） |
-| thread-router · op-info-gate | comment-style-guide（完整版） |
-| dedup · batch-rhythm · human-voice | communities · subreddit-context |
-| batch-output-template · quality-checklist | keyboard-domain-guide · account-safety |
-| real-comments · mk-thread-samples | research-protocol（Type D 时升必读） |
-| product-recommendation-playbook（Type D） | comment-patterns（已废弃执行） |
+| 运行时 | On-demand |
+|--------|-----------|
+| runbook · op-info · blind-spot-gate · blind-spot-examples | quality-comment-examples |
+| dedup · batch-rhythm · human-voice | comment-style-guide 全文 |
+| your-upvoted-samples · batch-output-template | real-comments（短句表，次优先） |
+| thread-router · fetch | mk-thread-samples（顶评长度） |
 
 ---
 
@@ -48,23 +40,11 @@ flowchart TB
 
 | 冲突 | 裁定 |
 |------|------|
-| Show don't conclude vs Filler | Filler 豁免 |
-| 5 Rules vs 10–12 备选 | **仅实发 1 条** 跑 5 Rules；备选 **3 项** |
-| 禁假史 vs 第一人称 | 禁持 SKU · 可 I'd / 配列经历 |
-| Tradeoff vs info_thin | **thin → Tradeoff 0** |
-| 具名 SKU vs 摩擦 | Scratchy 禁 depends+SKU；核实行尾必填 URL |
-| 节奏 vs 单条属性 | **batch-rhythm** 整批先于选实发 |
-| style-guide 核心 vs human-voice 配比 | **原则** 在 runbook Phase 2 写前必读；**配比** 在 human-voice Phase 3 |
-| Scratchy vs 装饰 tbh | **句法测试**：删 tbh/idk 后仍完整句 → 假摩擦 |
-
----
-
-## 信息正确性清单
-
-- [ ] `info_density` 已填
-- [ ] `节奏自检` ✓
-- [ ] 具名 SKU 有 `核实来源` 块
-- [ ] `info_thin` 无 Tradeoff/具名推荐实发
-- [ ] dedup 无顶评撞车
+| 不像 AI vs 有用 | **Blind Spot**：具体+随口+核实；不靠纯废话实发 |
+| info_thin vs 盲点 | thin 禁 SKU **推荐** · **允许 0–1 核实盲点** |
+| 观察 vs 盲点 | OP 已述困境 ≠ 盲点（`blind-spot-examples` 反例） |
+| 共鸣 vs 节奏 | 共鸣须 thread **未说过**；仅 lol = 节奏 |
+| 5 Rules vs 备选 | 仅 **实发 1 条** 跑 5 Rules |
+| 例子按类型 vs 得赞 | 金样/盲点例 **得赞原因轴**；real-comments 次优先 |
 
 *路径：`reddit-keyboard-comments/references/skill-map.md`*

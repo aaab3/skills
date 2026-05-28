@@ -1,6 +1,6 @@
 # 真人 Reddit 评论样本库 · MK 优先
 
-> **Comments 版** 写稿扫 **§MK 短句** + `mk-thread-samples.md`。  
+> **Comments 版** 短句表按**句式类型**分 — **次优先**。写 Help 帖先扫 `your-upvoted-samples.md` / `blind-spot-examples.md`（**得赞原因**）。Gallery 扫 §MK 短句 + `mk-thread-samples.md`。  
 > **禁编造** `had mine 3 weeks` 类假细节 — 见 `skill-map.md`。  
 > 更新：2026-05-28
 
